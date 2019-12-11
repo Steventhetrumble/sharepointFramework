@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "site-retreival-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/siteRetreival/SiteRetreivalWebPart.js",
+          "manifest": "./src/webparts/siteRetreival/SiteRetreivalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SiteRetreivalWebPartStrings": "lib/webparts/siteRetreival/loc/{locale}.js"
+  }
+}

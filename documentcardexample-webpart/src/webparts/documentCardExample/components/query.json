@@ -1,0 +1,11 @@
+{   
+    
+    "request":{
+            "Querytext": "query",
+            "QueryTemplate" :"contentclass:STS_Web",
+            "SelectProperties" :  ["Title","Url","Path","ViewsLifeTime","ViewsRecent","Size","SiteDescription","LastItemUserModifiedDate"],
+            "RowsPerPage" : 1,
+            "EnableSorting": "true",
+            "TrimDuplicates": "false"
+    }
+}
